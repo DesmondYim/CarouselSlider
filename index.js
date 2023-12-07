@@ -72,7 +72,6 @@ var myInterval;
 
 const runCarousel = function(){
     myInterval = setInterval(cycleCarousel, 5000);
-    //why does setInterval need to be inserted into a variable?
 }
 
 function stopCarousel() {
